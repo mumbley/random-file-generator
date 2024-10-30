@@ -6,21 +6,15 @@ Sometimes, it can be handy to have some content to test things like backups and 
 This tool generates a set number of files in a directory of choice, with a range of sizes between `MAZSIZE` and `MINSIZE`.
 
 All flags are optional, except `DIR` which must be set. if the directory does not exist, it will be created.
-
-  
-
 ## Flags:
-
--h, --help  : show help message and exit
--c COUNT, --count COUNT : Number of files to create
--m MINSIZE, --minsize MINSIZE : Minimum size of each file in MB
--x MAXSIZE, --maxsize MAXSIZE : Maximum size of each file in MB
--d DIR, --dir DIR : Directory where files will be created
-
-  
-
+|Flag|Alt|Description|
+|--|--|--|
+|-h|--help|Show help message and exit|
+|-c|--count|Number of files to create|
+|-m|--minsize|Minimum size of each file in MB|
+|-x|--maxsize|Maximum size of each file in MB|
+|-d|--dir|Directory where files will be created|
 ## Defaults:
-
 |Flag|Default|Description|
 |--|--|--|
 |count|1|number of files generated
